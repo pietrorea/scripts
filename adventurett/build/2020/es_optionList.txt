@@ -1,0 +1,98 @@
+
+
+Name: New York City
+Adult Price: 60
+Child Price: 50
+"Fechas"
+"--Escoger--"
+"Abril 25, 2020"
+"Junio 27, 2020"
+"Agosto 29, 2020"
+
+
+Name: Harrington Casino, DE
+Adult Price: 40
+Child Price: null
+"Fechas"
+"--Escoger--"
+"Mayo 03, 2020"
+
+
+Name: Atlantic City
+Adult Price: 50
+Child Price: 40
+"Fechas"
+"--Escoger--"
+"Mayo 24, 2020"
+"Junio 07, 2020"
+"Julio 12, 2020"
+"Agosto 09, 2020"
+"Agosto 23, 2020"
+"Septiembre 06, 2020"
+
+
+Name: Cataratas del Niagara
+Adult Price: 350
+Child Price: 300
+"Fechas"
+"--Escoger--"
+"Junio 19, 2020 - Junio 21, 2020"
+"Julio 24, 2020 - Julio 26, 2020"
+"Septiembre 11, 2020 - Septiembre 13, 2020"
+
+
+Name: Orlando, FL
+Adult Price: 420
+Child Price: 350
+"Fechas"
+"--Escoger--"
+"Julio 01, 2020 - Julio 05, 2020"
+"Diciembre 28, 2020 - Enero 01, 2021"
+
+
+Name: Virginia Beach
+Adult Price: 50
+Child Price: 40
+"Fechas"
+"--Escoger--"
+"Julio 19, 2020"
+
+
+Name: Ocean City
+Adult Price: 50
+Child Price: 40
+"Fechas"
+"--Escoger--"
+"Agosto 02, 2020"
+
+
+Name: Myrtle Beach
+Adult Price: 370
+Child Price: 320
+"Fechas"
+"--Escoger--"
+"Agosto 14, 2020 - Agosto 17, 2020"
+
+
+Name: Pennsylvania, Amish
+Adult Price: 50
+Child Price: 40
+"Fechas"
+"--Escoger--"
+"Septiembre 05, 2020"
+
+
+Name: Teatro Rockettes, New York
+Adult Price: 150
+Child Price: 140
+"Fechas"
+"--Escoger--"
+"Noviembre 14, 2020"
+
+
+Name: Teatro Queen Esther, Pennsylvania
+Adult Price: 150
+Child Price: 140
+"Fechas"
+"--Escoger--"
+"Diciembre 05, 2020"

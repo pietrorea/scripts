@@ -1,5 +1,8 @@
 # scripts
 Personal scripts
 
-## Xcode
-- Remove the Derived Data folder
+## xcode
+- Remove the Derived Data folder.
+
+## adventurett
+- Scripts to help me manage my father's website.
