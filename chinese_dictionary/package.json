@@ -1,0 +1,13 @@
+{
+  "name": "chinese_dictionary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pietro Rea",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.9.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.6",
+    "typescript": "^3.8.3"
+  }
+}

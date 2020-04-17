@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es2015"],
+    "target": "es2018",
+    "module": "commonjs",
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+} 
