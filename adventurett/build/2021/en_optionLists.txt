@@ -1,0 +1,77 @@
+
+
+Name: Atlantic City
+Adult Price: 60
+Child Price: 50
+"Dates"
+"--Choose--"
+"July 04, 2021"
+"July 11, 2021"
+"August 08, 2021"
+"August 22, 2021"
+
+
+Name: Virginia Beach
+Adult Price: 60
+Child Price: 50
+"Dates"
+"--Choose--"
+"July 10, 2021"
+
+
+Name: Niagara Falls
+Adult Price: 380
+Child Price: 330
+"Dates"
+"--Choose--"
+"July 23, 2021 - July 25, 2021"
+"September 10, 2021 - September 12, 2021"
+
+
+Name: Ocean City
+Adult Price: 60
+Child Price: 50
+"Dates"
+"--Choose--"
+"August 01, 2021"
+
+
+Name: Myrtle Beach
+Adult Price: 400
+Child Price: 350
+"Dates"
+"--Choose--"
+"August 13, 2021 - August 16, 2021"
+
+
+Name: New York City
+Adult Price: 70
+Child Price: 60
+"Dates"
+"--Choose--"
+"August 21, 2021"
+
+
+Name: Orlando, FL
+Adult Price: 450
+Child Price: 380
+"Dates"
+"--Choose--"
+"August 26, 2021 - August 30, 2021"
+"December 28, 2021 - January 01, 2021"
+
+
+Name: Pennsylvania, Amish
+Adult Price: 60
+Child Price: 50
+"Dates"
+"--Choose--"
+"September 04, 2021"
+
+
+Name: New York City Rockettes
+Adult Price: 160
+Child Price: 150
+"Dates"
+"--Choose--"
+"November 13, 2021"

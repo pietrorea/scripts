@@ -37,8 +37,8 @@ let finishedProcessingExcursionsCSV = false;
 
 //change these vars 
 let locale = 'en';
-let toursFileName = './input/2020_tours.csv';
-let excursionsFileName = './input/2020_calendar.csv'; 
+let toursFileName = './input/2021/tours.csv';
+let excursionsFileName = './input/2021/calendar.csv'; 
 
 moment.locale(locale);
 

@@ -6,8 +6,14 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^13.9.0",
+    "dotenv": "^8.2.0",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.6",
+    "sequelize-typescript": "^1.1.0",
+    "ts-node": "^8.8.2",
     "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
   }
 }
