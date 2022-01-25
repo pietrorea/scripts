@@ -21,12 +21,12 @@ read HOSTNAME
 echo
 
 echo "MySQL password for root user:"
-echo "(Try 'pwgen -s -1 15 -y')"
+echo "> 8 chars, including numeric, mixed case, and special characters"
 read -s MYSQL_ROOT_PASSWORD
 echo
 
-echo "MySQL password for wp_admin user:"
-echo "(Try 'pwgen -s -1 15 -y')"
+echo "MySQL password for wpadmin user:"
+echo "> 8 chars, including numeric, mixed case, and special characters"
 read -s MYSQL_WP_ADMIN_USER_PASSWORD
 echo
 
@@ -132,13 +132,13 @@ cat > /var/www/html/wordpress/blog/wp-config.php <<EOF
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', ${WP_DB_NAME} );
+define( 'DB_NAME', '${WP_DB_NAME}' );
 
 /** MySQL database username */
-define( 'DB_USER', ${WP_DB_ADMIN_USER} );
+define( 'DB_USER', '${WP_DB_ADMIN_USER}' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', ${MYSQL_WP_ADMIN_USER_PASSWORD} );
+define( 'DB_PASSWORD', '${MYSQL_WP_ADMIN_USER_PASSWORD}' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
