@@ -10,23 +10,23 @@ if [[ "$EUID" -ne 0 ]]; then
 fi
 
 echo "HOSTNAME:"
-read -s HOSTNAME
+read HOSTNAME
 echo
 
 echo "Admin SSH public key:"
-read -s SSH_PUBLIC_KEY
+read SSH_PUBLIC_KEY
 echo
 
 echo "Admin username:"
-read -s ADMIN_USERNAME
+read ADMIN_USERNAME
 echo
 
 echo "Admin group name:"
-read -s ADMIN_GROUP_NAME
+read ADMIN_GROUP_NAME
 echo
 
-echo "Project name:"
-read -s PROJECT_NAME
+echo "Project name (used for sudoers.d file):"
+read PROJECT_NAME
 echo
 
 echo "$HOSTNAME" > /etc/hostname
