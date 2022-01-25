@@ -21,12 +21,12 @@ read HOSTNAME
 echo
 
 echo "MySQL password for root user:"
-echo "(Try `pwgen -s -1 15 -y`)"
+echo "(Try 'pwgen -s -1 15 -y')"
 read -s MYSQL_ROOT_PASSWORD
 echo
 
 echo "MySQL password for wp_admin user:"
-echo "(Try `pwgen -s -1 15 -y`)"
+echo "(Try 'pwgen -s -1 15 -y')"
 read -s MYSQL_WP_ADMIN_USER_PASSWORD
 echo
 
