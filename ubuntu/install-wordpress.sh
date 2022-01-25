@@ -89,7 +89,7 @@ EOF
 mysql_secure_installation -u root --password="${MYSQL_ROOT_PASSWORD}" --use-default
 
 mysql -u root --password="${MYSQL_ROOT_PASSWORD}" <<EOF
-CREATE DATABASE ${WP_DB_NAME};
+CREATE DATABASE IF NOT EXISTS ${WP_DB_NAME};
 CREATE USER '${WP_DB_ADMIN_USER}'@'localhost' IDENTIFIED BY '${MYSQL_WP_ADMIN_USER_PASSWORD}';
 GRANT ALL ON ${WP_DB_NAME}.* TO '${MYSQL_WP_ADMIN_USER_PASSWORD}'@'localhost'
 EOF
