@@ -65,7 +65,7 @@ server {
   access_log /var/log/nginx/$HOSTNAME_access.log;
   client_max_body_size 100M;
   location / {
-    try_files $uri $uri/ /index.php?$args;
+    try_files \$uri \$uri/ /index.php?\$args;
   }
   location ~ \.php$ {
     include snippets/fastcgi-php.conf;
@@ -109,7 +109,8 @@ sudo chown -R www-data:www-data /var/www/html/wordpress/blog
 
 WP_SECURE_SALTS="$(curl -s https://api.wordpress.org/secret-key/1.1/salt/)"
 
-cat > /var/www/html/wordpress/blog/wp-config.php <<EOF
+WP_CONFIG_FILE=/var/www/html/wordpress/blog/wp-config.php
+cat > '${WP_CONFIG_FILE}' <<EOF
 <?php
 /**
  * The base configuration for WordPress
@@ -200,3 +201,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 EOF
+
+sudo chown -R www-data:www-data '${WP_CONFIG_FILE}'
