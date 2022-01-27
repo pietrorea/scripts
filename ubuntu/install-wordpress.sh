@@ -61,8 +61,8 @@ server {
   root /var/www/html/wordpress/blog;
   index  index.php index.html index.htm;
   server_name $HOSTNAME;
-  error_log /var/log/nginx/$HOSTNAME_error.log;
-  access_log /var/log/nginx/$HOSTNAME_access.log;
+  error_log /var/log/nginx/error.log;
+  access_log /var/log/nginx/access.log;
   client_max_body_size 100M;
   location / {
     try_files \$uri \$uri/ /index.php?\$args;
