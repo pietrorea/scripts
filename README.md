@@ -28,8 +28,17 @@ This repo contains my collection of useful scripts. It currently includes script
 ## LetsEcrypt
 
 ### ssl.sh
+
 - Runs LetsEncrypt's `certbot` and requests an SSL certificate using a $HOSTNAME that you pass in.
+
+## Git
+
+### git-init.sh
+
+- Sets up git repo as the `git` user. Meant to be run in host after setting up SSH access for an admin user and the a `git` user.
+
 ## Xcode
 
 ### rm-derived-data.sh
+
 - Remove the Derived Data folder.
