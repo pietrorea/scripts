@@ -1,3 +1,5 @@
+## Updated for Ubuntu 24.04 LTS
+
 ## Usage:
 ## sudo bash -c "$(curl -sS https://raw.githubusercontent.com/pietrorea/scripts/master/ubuntu/setup.sh)"
 
@@ -73,8 +75,6 @@ Subsystem	sftp	/usr/lib/openssh/sftp-server
 TrustedUserCAKeys /etc/ssh/lightsail_instance_ca.pub
 CASignatureAlgorithms +ssh-rsa
 EOF
-
-service sshd restart
 
 ## Ubuntu updates and deps
 
