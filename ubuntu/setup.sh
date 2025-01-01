@@ -31,6 +31,15 @@ echo "Project name (used for sudoers.d file):"
 read PROJECT_NAME
 echo
 
+
+# Validate PROJECT_NAME so sudoers.d parsing can succeed
+if [[ "$PROJECT_NAME" =~ [^a-zA-Z0-9_-] ]]; then
+  echo "Error: Project name can only contain letters, numbers, hyphens (-), and underscores (_)."
+  echo "Avoid periods (.), slashes (/), spaces, and other special characters."
+  exit 1
+fi
+echo
+
 echo "$HOSTNAME" > /etc/hostname
 hostname -F /etc/hostname
 
