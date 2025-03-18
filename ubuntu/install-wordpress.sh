@@ -81,7 +81,7 @@ rm -f /etc/nginx/sites-enabled/default
 ln -sf /etc/nginx/sites-available/$HOSTNAME /etc/nginx/sites-enabled/
 service nginx reload
 echo "Nginx configuration completed."
-
+ 
 ## MySQL setup
 echo "Running mysql_secure_installation..."
 mysql_secure_installation <<EOF
